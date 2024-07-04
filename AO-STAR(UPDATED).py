@@ -2,7 +2,7 @@ def aoStar(graph, H, startNode):     # AO* algorithm with input data graph struc
 
     openList  = list()  # Openlist for nodes to be explored
     closeList = list()  # Closlist for nodes already processed 
-    G = dict()          # F(X) = G(X) + H(X)
+    G = dict() ;;         # F(X) = G(X) + H(X)
     S = dict()          # SOLVED status
     P = dict()          # PARENT of a node
     U = dict()          # UPDATED status for heuristic value
